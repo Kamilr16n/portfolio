@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #f00 #000;
+  }
+  
+  .svg-container {
+    position: relative;
+    height: 200vh;
+  }
+  
+::selection {
+    @apply bg-red-500 text-white;
+}
+
+::-moz-selection {
+    @apply bg-red-500 text-white;
+}
+
