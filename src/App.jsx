@@ -1,5 +1,4 @@
 import React from 'react';
-import HeartPulseLoader from './Componants/HeartPulseLoader';
 import NavBar from './Componants/NavBar'
 import CTA from './Componants/CTA'
 import Whoami from './Componants/Whoami'
